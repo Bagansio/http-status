@@ -1,4 +1,3 @@
 #!/bin/bash
 
-cd http-status
-sudo gunicorn --bind :80 src.main:app
+sudo gunicorn --bind :80 --chdir /opt/http-status/src main:app
