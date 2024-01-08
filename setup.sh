@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 #install dependencies
 sudo apt update -y
 sudo apt install pip -y
